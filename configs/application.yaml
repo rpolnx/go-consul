@@ -1,0 +1,11 @@
+consul:
+  enabled: true
+  provider: consul
+  address: "localhost:8500"
+  keys_prefix: "general"
+
+app:
+  name: go-consul
+  profile: local
+  timeout: 60
+  port: 8080
